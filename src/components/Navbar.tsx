@@ -14,7 +14,7 @@ function Navbar() {
           <p
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <img src="/mmmm.png" className="h-24" alt="" />
+            <img src="https://github.com/David-glitc/Flash_Swap/blob/main/public/mmmm.png" className="h-24" alt="" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               Flash Swap
             </span>
