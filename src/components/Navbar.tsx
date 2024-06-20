@@ -10,11 +10,11 @@ function Navbar() {
   return (
     <div>
       <nav className="bg-white my-2 border-gray-200 dark:bg-gray-900 mx-4 rounded-2xl shadow-xl">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4 px-2">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-2">
           <p
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <img src="/vite.svg" className="h-8" alt="Flowbite Logo" />
+            <img src="/mmmm.png" className="h-24" alt="" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               Flash Swap
             </span>
