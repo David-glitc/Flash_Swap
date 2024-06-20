@@ -4,9 +4,9 @@ function SwapForm() {
   return (
     <div>
       
-<form className="max-w-xl mx-auto">
-    <div className="space-x-0 space-y-4 sm:space-y-0 sm:space-x-4 rtl:space-x-reverse flex items-center flex-col dark:bg-gray-900 p-6 gap-10 mb-4">
-        <div className="flex">
+<form className="max-w-xl my-10 px-4 mx-auto">
+    <div className="space-x-0 space-y-5  sm:space-y-0 sm:space-x-4 rtl:space-x-reverse flex items-center  flex-col rounded-2xl shadow-xl dark:bg-gray-900 p-6 gap-5 mb-4">
+        <div className="flex ">
             <label htmlFor="fiat-currency-input" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Your Email</label>
             <div className="relative w-full">
                 <input type="number" id="fiat-currency-input" className="block p-2.5 w-full z-20 text-sm text-gray-900 bg-gray-50 rounded-s-lg border-e-gray-50 border-e-2 border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-e-gray-700  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-blue-500" placeholder="421 USD" required />
@@ -52,8 +52,8 @@ function SwapForm() {
                 </ul>
             </div>
         </div>
-        <button type="button" className="p-3 text-sm font-medium text-gray-500 focus:outline-none bg-gray-100 rounded-lg hover:bg-gray-200 hover:text-gray-900 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600">
-            <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 14">
+        <button type="button" className=" p-3 text-sm font-medium text-gray-500 focus:outline-none bg-gray-100 rounded-lg hover:bg-gray-200 hover:text-gray-900 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600">
+            <svg className="w-4 h-4 rotate-90" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 14">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 10H1m0 0 3-3m-3 3 3 3m1-9h10m0 0-3 3m3-3-3-3"/>
             </svg>
             <span className="sr-only">Convert currency</span>
