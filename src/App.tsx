@@ -2,6 +2,7 @@ import "./App.css";
 import "@twa-dev/sdk";
 import Navbar from "./components/Navbar";
 import SwapForm from "./components/SwapForm";
+import Balance from "./components/Balance";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <div>
         <SwapForm/>
       </div>
+      
       </main>
     </>
   );
